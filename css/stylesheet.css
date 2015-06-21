@@ -1,0 +1,63 @@
+/*Main Styling*/
+
+body {
+    text-align: center;
+}
+section {
+    height: 100vh;
+    background-color: red;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/*Heading*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Bangers', cursive;
+}
+/*Displays the Random Facts*/
+
+p {
+    display: inline-block;
+    margin-top: 35vh;
+    font-size: 1.5em;
+    color: white;
+}
+/*Contains Click Through Button*/
+
+#btn-next-container {
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+}
+#btnNext {
+    background-color: inherit;
+    border-radius: 15px;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+}
+/*Media Queries*/
+
+@media only screen and (min-width: 768px) {
+    p {
+        margin-top: 40vh;
+        font-size: 2.5em;
+    }
+    #btn-next-container {
+        position: fixed;
+        bottom: 100px;
+        width: 100%;
+    }
+    #btnNext {
+        font-size: 2.5em;
+        padding-bottom: 5px;
+    }
+}
